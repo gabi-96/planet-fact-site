@@ -1,0 +1,74 @@
+@import "tailwindcss";
+
+@theme {
+  --color-white: #fff;
+  --color-black: #070724;
+  --color-dark-gray: #38384F;
+  --color-light-gray: #838391;
+  --color-medium-blue: #419EBB;
+  --color-dark-yellow: #EDA249;
+  --color-purple: #6f2ed6;
+  --color-red: #D14C32;
+  --color-bright-red: #D83A34;
+  --color-orange: #CD5120;
+  --color-light-blue: #1ec2a4;
+  --color-dark-blue: #2d68f0;
+} 
+
+.h1
+{
+  font-family: "Antonio", sans-serif;
+  font-size: 80px;
+  line-height: 103px;
+  font-weight: 500;
+}
+.h2
+{
+  font-family: "Antonio", sans-serif;
+  font-size: 40px;
+  font-weight: 500;
+}
+.h3
+{
+  font-family: "League Spartan", sans-serif;
+  font-size: 12px;
+  line-height: 25px;
+  letter-spacing: 2.6px;
+  font-weight: 700;
+}
+.h4
+{
+  font-family: "League Spartan", sans-serif;
+  font-size: 11px;
+  line-height: 22px;
+  font-weight: 400;
+}
+.body
+{
+  font-family: "League Spartan", sans-serif;
+  font-size: 14px;
+  line-height: 25px;
+  font-weight: 400;
+}
+
+.spartan
+{
+  font-family: "League Spartan", sans-serif;
+}
+
+.antonio
+{
+  font-family: "Antonio", sans-serif; 
+}
+
+.bg-medium-blue {
+  background-color: var(--color-medium-blue);
+}
+
+.bg-tab {
+  background-color: #070724;
+}
+
+
+
+ 
